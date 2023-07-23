@@ -1,0 +1,64 @@
+1.What is pandas?
+-->  pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+built on top of the Python programming language.
+2. What is numpy?
+--> NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), 
+and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, 
+random simulation and much more.
+
+3. What is matplotlib?
+--> Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
+
+4. What is sklearn?
+--> Simple and efficient tools for predictive data analysis. It features various classification, regression and clustering algorithms including support k-nearest neighbours, support vector machines, random forests,
+ gradient boosting and so on, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy. It also has other modules with helpful functions used in machine learning projects 
+such as train_test_split.
+
+5. why do we train test split?
+
+--> The train-test split procedure is used to estimate the performance of machine learning algorithms when they are used to make predictions on data not used to train the model.
+
+6. Stratified v.s. Random Split
+
+--> Stratified sampling aims at splitting a data set so that each split is similar with respect to something. Means we group the data based on similar classes.
+
+--> Random state: Random_state is used to set the seed for the random generator so that we can ensure that the results that we get can be reproduced. Because of the nature of splitting the data in train and 
+test is randomised you would get different data assigned to the train and test data unless you can control for the random factor.
+
+7. K Nearest Neighbor(KNN) : In KNN, K is the number of nearest neighbors. The number of neighbors is the core deciding factor. K is generally an odd number if the number of classes is 2. 
+When K=1, then the algorithm is known as the nearest neighbor algorithm.
+
+8. Why is seaborn used?
+
+-->Seaborn is a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures. Seaborn helps you explore and understand your data.
+
+9. Regression: It is a type of supervised learning problem in which the response is continious.
+
+10. Linear Regression: It is a particular machine learning model that can be used for regression models.
+
+Logistic Regression: Logistic regression falls under classification problem. 
+
+Linear regression is less accurate than other models but easier to implement.
+
+11. Feature Selection: Select the features which are related with our target.
+
+12. Handling Missing values: Create a subset with non null values/fill null values with something using sklearn mean method or something else. Drop Null columns.
+
+Feature Scaling
+
+13. Why do we need to scale our data?
+--> If a feature’s variance is orders of magnitude more than the variance of other features, that particular feature might dominate other features in the dataset and make the estimator unable to learn from other features correctly, 
+i.e. our learner might give more importance to features with high variance, which is not something we want happening in our model. 
+
+Minimax Scaler (Scales 0 to 1 if all positive) (-1 to 1 if negative value exists)
+Standard Scaler
+Robust Scaler
+
+14. Encoding categorical variables: encodes categorical features into numeric values
+
+15. Feature engineering: Combining several features and create new features for making the algorithm more accurate.
+
+16. What is entropy? 
+--> Entropy is defined as the randomness or measuring the disorder of the information being processed in Machine Learning. Entropy= summation(-p log2 p) 
+
+
